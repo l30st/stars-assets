@@ -1,13 +1,13 @@
 # Brawl Stars Assets Database
 Assets from every Brawl Stars version
 
-* Current size of assets: `~105,31 GB`
-* Current amount of files: `1.111.695 files` 
-* Current amount of folders: `19.856 folders` 
+* Current size of assets: `~107,29 GB`
+* Current amount of files: `1.130.122 files` 
+* Current amount of folders: `20.675 folders` 
 <!--
 holy shit why so many
 -->
-* Last update: `December 16th, 2025`
+* Last update: `February 25th, 2026`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
 * Only patches [here](https://github.com/tailsjs/brawl-stars-patches)
 * TODO list [here!](./TODO.md)

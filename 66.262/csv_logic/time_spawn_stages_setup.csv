@@ -1,0 +1,6 @@
+"Name","TimeToStartSeconds","TimeSpawnToUse"
+"string","int","string"
+"DefaultTimeSpawnConfig",0,"TimeSpawnDifficulty1"
+,30,"TimeSpawnDifficulty2"
+,60,"TimeSpawnDifficulty3"
+,100,"TimeSpawnDifficulty4"

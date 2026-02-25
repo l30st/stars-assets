@@ -1,0 +1,35 @@
+id = "buddy_normal_shop_panel"
+priority = 1
+
+type = "ShopPanel"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/buddy_shop.sc"
+export_name = "panel_buddy_offer"
+
+
+hide=[
+	"notification",
+	"panel_discount",
+	"panel_best_value",
+	"TID_SHOP_ONE_TIME_PURCHASE",
+]
+
+[bindings]
+price_container = { path="price" }
+brawler_pin = { path="brawler_pin/ph" }
+inactive = { path="inactive" }
+locked = { path="locked" }
+locked_reason = { path="locked/txt" }
+title = { path="title_txt" }
+
+[skins]
+buddy_skin = { path="buddy/buddy", animation="RECRUITROAD_OVERRIDE", animation_next="RECRUITROAD_OVERRIDE", position=[1.5,1,0] }
+
+[animation]
+gadget = { path="", end_frame=0 }
+starpower = { path="", end_frame=1 }
+hypercharge = { path="", end_frame=2 }
+random = { path="", end_frame=3 }
+default_animation = "random"
+#default_animation = "gadget"

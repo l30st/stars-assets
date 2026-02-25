@@ -1,0 +1,14 @@
+"Name","TimeToSpawnMS","PossibleCharacters","PossibleCharacterWeights","PossibleCharactersCountToSpawn"
+"string","int","string","int","int"
+"TimeSpawnDifficulty1",2000,"SwarmSamuraiFastMeleeEnemy",50,1
+,,"SwarmSamuraiMeleeEnemy",40,1
+,,"SwarmSamuraiMeleeMiniBossEnemy",0,1
+"TimeSpawnDifficulty2",1000,"SwarmSamuraiFastMeleeEnemy",50,1
+,,"SwarmSamuraiMeleeEnemy",40,1
+,,"SwarmSamuraiMeleeMiniBossEnemy",10,1
+"TimeSpawnDifficulty3",1000,"SwarmSamuraiFastMeleeEnemy",50,2
+,,"SwarmSamuraiMeleeEnemy",40,2
+,,"SwarmSamuraiMeleeMiniBossEnemy",10,2
+"TimeSpawnDifficulty4",600,"SwarmSamuraiFastMeleeEnemy",35,3
+,,"SwarmSamuraiMeleeEnemy",30,3
+,,"SwarmSamuraiMeleeMiniBossEnemy",30,2

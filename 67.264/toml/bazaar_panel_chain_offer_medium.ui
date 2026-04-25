@@ -1,0 +1,44 @@
+id = "bazaar_panel_chain_offer_medium"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ChainOffer"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "chain_offer_panel_medium"
+
+hide=[
+	"inactive",
+	"panel_discount",
+	"panel_best_value",
+	"processing_ani",
+	"inner_offer_panels_static",
+]
+
+set_text = [
+	{ parent_binding="notification", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="notification", path="txt_free", tid="TID_SHOP_FREE" }
+]
+
+[custom]
+int.small_item_count = 6
+int.large_item_count = 3
+float.width = 545.9
+
+[bindings]
+inner_offer_panels = { path="inner_offer_panels" }
+bg_ph = { path="bg_ph" }
+title = { path="title_txt" }
+subtitle = { path="subtitle_txt" }
+time_txt = { path="time_txt" }
+highlighted_skin = { path="item_ph" }
+notification = { path="notification" }
+
+[animations]
+stop_3 = { path="inner_offer_panels_static/offer_1/cover", end_frame=0 }
+stop_2 = { path="oddities_shop_offer_medium_bg_epic", end_frame=0, also_play="stop_3" }
+stop_1 = { path="inner_offer_panels", end_frame=0, also_play="stop_3" }
+
+notification_free = { binding="notification", end="free" }
+notification_new = { binding="notification", end="new" }
